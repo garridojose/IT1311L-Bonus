@@ -1,0 +1,40 @@
+.card{
+  border: 1px solid rgba(100, 100, 100, 0.50);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(18, 18, 18, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  min-width: 250px;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.clicked{
+  border: 1px solid rgba(100, 100, 100, 0.50);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(18, 18, 18, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  min-width: 250px;
+  max-width: 250px;
+  display: inline-block;
+  background-color: rgba(255, 95, 95, 0.8);
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.card p{
+  font-family: Arial, Helvetica, sans-serif;
+}
